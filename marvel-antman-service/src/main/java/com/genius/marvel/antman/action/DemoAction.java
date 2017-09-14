@@ -14,4 +14,8 @@ public class DemoAction {
 
     @Reference(version = "1.0.0")
     private DemoService demoService;
+
+    public String sayHello(String name) {
+        return demoService.sayHello(name);
+    }
 }

@@ -3,6 +3,9 @@
 *.iml
 */target
 
+# Test file
+*Test.java
+
 # Compiled class file
 *.class
 

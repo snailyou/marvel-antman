@@ -6,7 +6,7 @@
 	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <dubbo:application name="marvel-antman-service"/>
+    <dubbo:application name="marvel-antman-web"/>
 
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
 
