@@ -15,5 +15,29 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <!-- zookeeper { -->
+
+        <!-- } zookeeper -->
+
+        <!-- tools { -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- } tools -->
+    </dependencies>
 
 </project>
